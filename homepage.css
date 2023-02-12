@@ -1,0 +1,77 @@
+*{
+        background-color: #ffffe3;
+}
+#content{
+        display: grid;
+        left: 0;
+        right: 0;
+        top: 40%;
+        bottom: 50%;
+        position: absolute;
+}
+#butt,#butt2{
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 18px;
+        top: 0;
+}
+
+
+#generated-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 550px;
+        padding-left: 35px;
+        padding-right: 5px;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #e7496b;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 25px;
+      }
+      #generate-button {
+        margin: 0 auto;
+        display: block;
+      }
+
+
+      #truth-button,#dare-button,#truth-button2,#dare-button2   {
+        width: 200px;
+        float:left;
+        color: white;
+        background-color: #331a46;
+        border-radius: 10px;
+        border: none;
+        margin-right:32px;
+      }
+
+
+      
+      
+      #truth-button:hover,#dare-button:hover,#truth-button2:hover,#dare-button2:hover{
+        color: #331a46;
+        background-color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+      #truth-button:active,#dare-button:active{
+        color: #331a46;
+        background-color: #f6b1ca;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+      #truth-button2:active,#dare-button2:active{
+        color: #331a46;
+        background-color: #cab1dc;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+      
